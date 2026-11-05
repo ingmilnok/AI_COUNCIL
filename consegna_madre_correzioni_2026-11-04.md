@@ -35,3 +35,15 @@ Unire gli zip P09 (A) e P08b (B) in un'unica prova, poi collaudo completo con da
 
 ## Metodo
 Dire sempre con quale modello fare i passi; costi bassi. A fine sessione: riepilogo.md nella cartella Drive «claude code» e decisioni durevoli in MYREE.
+
+## Esito collaudo P10 (05/11/2026, riferito da Milvio dalla chat di unione)
+- Nessun problema nuovo: nessuna prova fallita fuori dall'elenco atteso; la 71 passa da sola.
+- Fallite attese (7, uguali su Linux e Windows, quindi non legate all'ambiente): 17, 25, 66, 79, 82, 100, 102. Erano già fallite sulla base 1.6.0.045: non sono regressioni.
+- Più concrete: 79 e 100 (non si apre la finestra «Importa da SUEDI»).
+- Escluse dal giro, da provare a mano: 41, 48, 68 (la 41 si blocca sul PC di Milvio).
+
+## Decisioni
+- Via libera alla P10 come prova.
+- 79 e 100: analisi mirata in chat nuova, Sonnet 5.5, prima di installare la 1.7.0 sul server (toccano l'importazione SUEDI, area modificata dalla chat B).
+- 17, 25, 66, 82, 102: non bloccanti; analizzarle solo se si vuole pulire la batteria.
+- 41, 48, 68: le prova Milvio a mano sul PC.
